@@ -25,7 +25,7 @@
 # odwrocone = {value: key for key, value in sklep.items()}
 # print(odwrocone)
 
-#zad 4
+#zad.4 Zdefiniuj funkcje, która sprawdzi czy trójkąt jest prostokątny.
 # def check(a, b, c):
 #     if a == b == c:
 #         return 'Trójkąt równoboczny'
@@ -48,14 +48,14 @@
 #
 # print(check(3, 4, 5))
 #
-# #zad 5
+# #zad.5 Zdefiniuj funkcje która policzy pole trapezu. Funkcja ma przyjmować wartości domyślne.
 # def trapez(a=3, b=4, h=6):
 #     return ((a + b) * h) / 2
 #
 #
 # print(trapez())
 #
-# #zad 6
+# #zad.6 Zdefiniuj funkcję która będzie liczyć iloczyn elementów ciągu.
 # # Parametry funkcji a1 (wartość początkowa), b (wielkość o ile mnożone są kolejne elementy), ile (ile elementów ma mnożyć)
 # # Ponadto funkcja niech przyjmuje wartości domyślne: a = 1, b = 4, ile = 10
 # def iloczyn(a=1, b=4, ile=10):
@@ -65,7 +65,7 @@
 #
 # iloczyn(3, 3, 13)
 #
-# #zad 7
+# #zad.7 Napisz funkcje za pomocą operatora *, która wykona te same działanie co w zadaniu 6.
 # def fun(*liczby):
 #     if len(liczby) != 3:
 #         print('Podaj trzy liczby!')
@@ -76,14 +76,14 @@
 #
 # fun(1, 5, 4)
 #
-# #zad 8
+# #zad.8 Napisz funkcję, która wykorzystuje symbol **. Funkcja ma przyjmować listę zakupów w postaci: klucz to nazwa produktu a wartość to jego koszt. Funkcja ma zliczyć ile jest wszystkich produktów w ogóle i zwracać całościową wartość tych produktów.
 # def licz(**kwargs):
 #     return len(kwargs.items()), sum(x for x in kwargs.values())
 #
 #
 # print(licz(mleko=15, zupa=3, kalafior=7))
 #
-# #zad 9
+# #zad.9 Stwórz pakiet ciągi. Jeden moduł niech dotyczy działań i wzorów związanych z ciągami arytmetycznymi a drugi niech dotyczy działań i wzorów związanych z ciągami geometrycznymi.
 # from ciagi import *
 #
 # print(arytmetyczne.nwyraza(1, 10, 2))
